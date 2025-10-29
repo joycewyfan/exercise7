@@ -24,26 +24,29 @@
 
       h3 {
         font-family: sans-serif;
-        color: darkgreen;
+        color: #222222;
       }
       
       ul {
-        
+        padding: 25px;
+        margin-top: -30px;
       }
       
       .container {
         display: grid;
         width: 1200px;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 30% 70%;
         background-color: beige;
         padding: 10px;
       }
       
       .grid-item{
-        width: 1200px;
         text-align: left;
         padding: 10px;
-        background-color: beige;
+      }
+      
+      .ingredients {
+        margin-top: 370px;
       }
       
       img{
@@ -54,7 +57,9 @@
     </style>
        </body>
     </head>
-<div class="grid-item">
+    
+    <div class="container">
+    <div class="grid-item">
     <h1>
       Spinach, Tofu and Sesame Stir-Fry
     </h1>
@@ -66,16 +71,11 @@
     <h2>
       Yield: 3 Servings
     </h2>
-    </div>
     
-      
-    <div class="grid-item">
-    <h2>
+    <h2 class="ingredients">
       Ingredients
     </h2>
-      </div>
     
-    <div class="grid-item">
     <ul>
       <li>1 tablespoon canola oil</li>
       <li>½ pound tofu, cut in small dice</li>
@@ -118,5 +118,6 @@
     <p>
       Advance preparation: This is a last-minute preparation, but you can have your ingredients prepared well in advance.
     </p>
+    </div>
     </div>
   </html>
